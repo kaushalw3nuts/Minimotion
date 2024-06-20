@@ -1,0 +1,212 @@
+/* ********** Common CSS: Start ********** */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+html {
+	-webkit-font-smoothing: antialiased;
+}
+* {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+body {
+	font-size: 16px;
+	color: #000000;
+    font-style: normal;
+    background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+li, ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a, a img {
+	text-decoration: none;
+	border: 0;
+	outline: none !important;
+}
+a, 
+button, 
+input[type=submit], 
+.input-text {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	box-shadow: none;
+}
+a:hover, 
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+input, textarea {
+	outline: none !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+input[type=text]::-moz-placeholder, 
+input[type=search]::-moz-placeholder, 
+.input-text::-moz-placeholder, 
+.input_text::-moz-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+input[type=text]::-webkit-input-placeholder, 
+input[type=search]::-webkit-input-placeholder, 
+.input-text::-webkit-input-placeholder, 
+.input_text::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+input[type=text]::-ms-placeholder, 
+input[type=search]::-ms-placeholder, 
+.input-text::-ms-placeholder, 
+.input_text::-ms-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+input[type=email]::-moz-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+input[type=email]::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+input[type=email]::-ms-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+textarea::-moz-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+textarea::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+textarea::-ms-input-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+body.open-nav { 
+    overflow: hidden; 
+}
+.main_wapper { 
+    overflow: hidden; 
+    min-height: 100%; 
+    position: relative; 
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+:root {
+
+	--primary-white: #FFFFFF;
+	--primary-black: #000000;
+	--text-gray: #757575;
+	--text-black: #222222;
+	--light-orange-background: #EE7005;
+	--dark-orange-background: #D76300;
+	--light-white-background: #F9F9F9;
+	--light-yellow-background: #FACF68;
+	--light-blue-bg: #E8F6FF;
+	--orange-bg-light: #F5ECE3;
+	--light-blue-white-bg: #EFF2F3;
+	--light-border-color: #E2E2E2;
+	--light-bg-color: #F2F2F2;
+	--blue-footer-bg: #006FB5;
+	--box-shadow: 0px 0px 30px 0px #0000000D;
+}
+
+/*============ Container CSS Code: Start ============*/
+
+@media (min-width: 375px) {
+	.container {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+@media (min-width: 576px) {
+	.container {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+		max-width: 1200px;
+	}
+}
+@media (min-width: 1400px) {
+	.container {
+		width: 1430px;
+		max-width: 1430px;
+	}
+}
+@media (min-width: 1600px) {
+	.container {
+		width: 1618px;
+		max-width: 1618px;
+	}
+}
+
+/*============ Container CSS Code: End ============*/
+
+/* ********** Common CSS: End ********** */
+
+.header { position: fixed; top: 0; left: 0; z-index: 1111; width: 100%; transition: all ease-in-out 0.4s; }
+.top_header { background: var(--primary-white); padding: 24px 0; }
+.top_header .top_inner_header { max-width: 1672px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+.top_header .top_inner_header .logo_block { display: block; position: relative; }
+.top_header .top_inner_header .logo_block a { display: flex; max-width: 176px; }
+.top_header .top_inner_header .logo_block a img { width: 100%; height: auto; }
+.top_header .top_inner_header .right_block { display: flex; align-items: center; }
+.top_header .top_inner_header .right_block .search_box { display: block; width: 100%; position: relative; }
+.top_header .top_inner_header .right_block .search_box .search_icon { position: absolute; left: 16px; top: 14px; display: block; }
+.top_header .top_inner_header .right_block .search_box .search_icon i { display: flex; height: 24px; width: 24px; background-image: url(../images/search-icon.svg); background-size: cover; background-repeat: no-repeat; background-position: center center; font-size: 0; }
+.top_header .top_inner_header .right_block .search_box .search_text { position: relative; border: 1px solid var(--light-border-color); height: 52px; border-radius: 50px; padding: 0 16px 4px 50px; font-weight: 600; font-size: 16px; line-height: 1.5; color: var(--text-gray); min-width: 600px; background: transparent; }
+.top_header .top_inner_header .right_block .social_box { display: block; position: relative; margin-left: 32px; }
+.top_header .top_inner_header .right_block .social_box ul { display: flex; align-items: center; }
+.top_header .top_inner_header .right_block .social_box ul li { display: block; position: relative; }
+.top_header .top_inner_header .right_block .social_box ul li + li { margin-left: 10px; }
+.top_header .top_inner_header .right_block .social_box ul .icon a { display: flex; height: 24px; width: 24px; transition: all 0.3s ease-in-out; }
+.top_header .top_inner_header .right_block .social_box ul .icon a img { width: 100%; height: auto; }
+.top_header .top_inner_header .right_block .social_box ul li a:hover { opacity: 0.7; }
+.top_header .top_inner_header .right_block .social_box ul .text a { display: flex; font-family: 'Manrope'; font-weight: 600; font-size: 16px; line-height: 1.5; color: var(--text-black); transition: all 0.3s ease-in-out; }
+.bottom_header { background: var(--light-orange-background); }
+.bottom_header .bottom_inner_header { max-width: 1672px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }

@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 	// ===== niceselect: Start =====
 
-	$('selection_box').niceSelect();
+	$('select').niceSelect();
 	
 	// ===== niceselect: End =====
 });

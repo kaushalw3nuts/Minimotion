@@ -314,10 +314,9 @@ p {
 .content_wrap .text_wrap .review_swiper_arrows .swiper-btn-next i svg path { transition: all 0.3s ease-in-out; }
 .content_wrap .text_wrap .review_swiper_arrows .swiper-btn-next:hover i svg path { stroke: var(--primary-white); }
 .content_wrap .slider_wrap { position: relative; width: calc(100% - 560px - 96px); }
-.review_slider { overflow: visible !important; z-index: 2; }
-.review_slider:after { content: ''; position: absolute; top: -2px; bottom: -2px; width: 100vw; right: 100%; z-index: 2; background-color: #FFFFFF; }
+.review_slider:after { content: ''; position: absolute; top: -2px; bottom: -2px; width: 100vw; right: 100%; z-index: 2; background: var(--light-white-background); }
 .content_wrap .slider_wrap .slider_container { position: relative; width: 100%; }
-.review_slider { width: 100%; overflow: hidden; }
+.review_slider { width: 100%; overflow: visible !important; z-index: 2; position: relative; }
 .review_slider .swiper-slide { width: 500px; }
 .review_slider .review_card { position: relative; background: var(--primary-white); padding: 20px; width: 500px; }
 .review_slider .review_card .image { position: relative; width: 100%; display: flex; padding: 73.915% 0 0 0; }

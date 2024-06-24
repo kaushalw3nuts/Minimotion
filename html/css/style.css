@@ -182,7 +182,13 @@ p {
 @media (min-width: 1200px) {
 	.container {
 		width: 100%;
-		max-width: 1200px;
+		max-width: 1260px;
+	}
+}
+@media (min-width: 1300px) {
+	.container {
+		width: 100%;
+		max-width: 1350px;
 	}
 }
 @media (min-width: 1400px) {
@@ -285,7 +291,8 @@ p {
 .listing_wrapper .item_box:hover .primary_btn { background-color: var(--light-orange-background); color: var(--primary-white); }
 
 
-.product_section { display: flex; justify-content: center; align-items: stretch; position: relative; min-height: 640px; }
+.product_section { display: flex; justify-content: center; position: relative; }
+/* align-items: stretch; min-height: 640px; */
 .product_section .best_section { width: 50%; padding: 44px 0 0 0; position: relative; display: flex; flex-direction: column; }
 .product_section .best_section::before { content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url(../images/sunset-cityscape.webp); background-size: cover; background-position: center center; background-repeat: no-repeat; }
 .product_section .best_section::after { content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: var(--light-bg-black); opacity: 0.8; }
@@ -452,6 +459,8 @@ p {
 .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i svg path { transition: all 0.4s ease-in-out; }
 .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link:hover i svg path { fill: var(--svg-bg-black); }
 .footer_wrapper .right_part .top_wrap .contact_wrap ul li .location_text i { min-width: 38px; }
+.footer_wrapper .right_part .top_wrap .contact_wrap ul li .location_text:hover { color: var(--primary-white); }
+.footer_wrapper .right_part .top_wrap .contact_wrap ul li .location_text:hover i svg path { fill: var(--primary-white); }
 .footer_wrapper .right_part .bottom_wrap { padding-top: 32px; border-top: 1px solid var(--light-border-color); display: flex; justify-content: space-between; align-items: center; gap: 20px; }
 .footer_wrapper .right_part .bottom_wrap .left_wrap { display: block; position: relative; }
 .footer_wrapper .right_part .bottom_wrap .left_wrap p { font-family: 'Manrope'; font-weight: 500; font-size: 24px; line-height: 1.33; color: var(--primary-white); }
@@ -465,5 +474,5 @@ p {
 .footer_wrapper .right_part .bottom_wrap .social_box ul li a:hover { opacity: 0.7; }
 .footer_wrapper .right_part .bottom_wrap .social_box ul .text a { display: flex; font-family: 'Manrope'; font-weight: 500; font-size: 24px; line-height: 1.58; color: var(--primary-white); transition: all 0.4s ease-in-out; }
 .footer .ftr_car_image { position: absolute; left: 0; bottom: 0; display: block; }
-.footer .ftr_car_image .image_wrap { max-width: 653px; display: flex; }
+.footer .ftr_car_image .image_wrap { max-width: 697px; display: flex; }
 .footer .ftr_car_image .image_wrap img { width: 100%; height: auto; object-fit: cover; }

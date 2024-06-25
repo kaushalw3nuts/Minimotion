@@ -498,7 +498,7 @@ p {
 gap: 18px;}
 .pagination_wrap .pri_next .btnb .primary_btn:hover{background-color: var(--light-orange-text);border-color: var(--light-orange-background); color: #FFFFFF;}
 .pro_detail_main {margin: 64px 0 96px;}
-.pro_detail_main .forward_grp {display: flex; justify-content: space-between; align-items: center;}
+.pro_detail_main .forward_grp {display: flex; justify-content: space-between; align-items: center; margin-bottom: 64px;}
 .pro_detail_main .forward_grp .forward_link {position: relative;}
 .pro_detail_main .forward_grp .forward_link ul {display: flex; }
 .pro_detail_main .forward_grp .forward_link ul li {position: relative; }
@@ -570,3 +570,100 @@ gap: 18px;}
 .commitment_wrapper .left_part p { font-family: 'Manrope'; font-size: 24px; font-weight: 500; line-height: 1.75; color: var(--text-gray); margin-top: 32px; }
 .commitment_wrapper .right_part { position: relative; max-width: 703px; width: 100%; display: flex; padding: 39.773% 0 0 0; }
 .commitment_wrapper .right_part img { width: 100%; height: 100%; object-fit: cover; position: absolute; left: 0; top: 0; }
+
+
+.product_slider_gallary {width: 50%;}
+.fullimg_gallary.swiper { width: 100%; height: 267px; margin-left: auto; margin-right: auto; padding-top: 24px; }
+.product_thumb_slider.mySwiper2 { height: 850px; width: 100%; }
+.product_thumb_slider.mySwiper { height: 33.33%; box-sizing: border-box; padding: 10px 0; }
+.fullimg_gallary.mySwiper .swiper-slide { width: 33.33%; height: 100%; border: 1px solid var(--light-border-color); padding: 24px 0; }
+.fullimg_gallary .swiper-slide img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.product_thumb_slider .swiper-slide img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.product_thumb_slider .swiper-button-next, 
+.product_thumb_slider .swiper-button-prev {color: #222222 !important;background-color: var(--primary-white); width: 44px; border-radius: 50px;}
+.product_thumb_slider .swiper-button-next:after,
+.product_thumb_slider .swiper-button-prev:after {font-size: 15px !important; font-weight: 700;}
+.product_grp {display: flex; }
+.product_purchase {width: 50%; padding-left: 64px;}
+.product_purchase .product_head {padding-bottom: 58px;}
+.product_purchase .product_head h3 {font-size: 44px; color: var(--light-bg-black); line-height: 60px; font-family: 'Manrope'; font-weight: 700;}
+.product_purchase .rating_star {display: flex; align-items: center;}
+.product_purchase .rating_star .star_grp {}
+.product_purchase .rating_star .star_grp ul {display: flex;}
+.product_purchase .rating_star .star_grp ul li {display: block;}
+.product_purchase .rating_star .star_grp ul li:not(:last-child){margin-right: 28px;}
+.review_total {margin-left: 28px;}
+.review_total span {display: block;  font-size: 20px; color: var(--light-bg-black); line-height: 24px; font-family: 'Manrope'; font-weight: 500;}
+.ship_detail {padding-top: 58px; padding-bottom: 44px;}
+.ship_detail ul {display: flex; align-items: center;}
+.ship_detail ul li {display: flex; align-items: center;}
+.ship_detail ul li:not(:last-child){margin-right: 64px;}
+.ship_detail ul li i {display: flex;}
+.ship_detail ul li span {display: block; font-size: 24px; line-height: 38px; color: var(--light-bg-black);font-family: 'Manrope'; margin-left: 16px;}
+.stock_detail {border-top: 1px solid var(--light-border-color); border-bottom: 1px solid var(--light-border-color); padding-top: 44px; padding-bottom: 44px;}
+.stock_detail .stock_dtl { position: relative;}
+.stock_detail .stock_dtl p {display: block; font-size: 24px; line-height: 38px; color: var(--text-gray);font-family: 'Manrope';}
+.stock_detail .stock_dtl p + p{margin-top: 44px;}
+.color_select {padding-top: 44px;}
+.color_select .color_head {padding-bottom: 24px;}
+.color_select .color_head p {font-size: 24px; color: var(--light-bg-black); font-weight: 500; line-height: 38px; font-family: 'Manrope';}
+/* .dif_color { display: flex;}
+.color_wrap {position: relative;}
+.dif_color label + label {margin-right: 24px;}
+.dif_color label {display: flex; position: relative; cursor: pointer; }
+.dif_color label input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; left: 0; top: 0; width: 100%; height: 100%;}
+.dif_color label .checkmark {position: absolute; top: 0; left: 0; height: 64px; width: 64px;
+background-color: #000000; border: 1px solid var(--light-border-color); border-radius: 50%;}
+.dif_color label:checked ~ .checkmark {
+	background-color: #2196F3;
+  }
+
+  .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  .dif_color label input:checked ~ .checkmark:after {
+	display: block;
+  }
+
+  .dif_color label .checkmark:after {
+	
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	left: 25px;
+    top: 11px;
+    width: 15px;
+    height: 30px;
+  } */
+
+  .colorBtn { display: flex; gap: 20px; }
+  .difBtn { position: relative; }
+  .difBtn label { position: relative; display: block; cursor: pointer;}
+  .difBtn label [type="radio"] { position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0; visibility: hidden; }
+  .difBtn span { position: relative; display: flex; justify-content: center; align-items: center; width: 64px; height: 64px; border-radius: 50%; }
+  .difBtn label [type="radio"]:checked + span::after{   left: 25px; content: ''; position: absolute;
+	top: 10px;
+	width: 15px;
+	height: 35px;
+	border: solid #000000;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg); 
+}
+
+.order_sec {padding-top: 44px;}
+.order_sec .order_dtl {padding-bottom: 89px;}
+.order_sec .order_dtl ul {margin: 0; padding: 0; display: block;}
+.order_sec .order_dtl ul li {display: flex; align-items: center;}
+.order_sec .order_dtl ul li i {display: inline-flex;}
+.order_sec .order_dtl ul li span {font-size: 24px; color: var(--light-bg-black); font-weight: 500; font-family: 'Manrope'; margin-left: 16px; display: block;}
+.order_sec .btnbox {}
+.order_sec .btnbox .primary_btn {display: flex; justify-content: center; align-items: center; padding: 0 10px; height: 58px; border: 2px solid var(--light-orange-btn-border-color); font-family: 'Manrope'; font-weight: 700; font-size: 24px; line-height: 1.58; color: var(--primary-white); transition: all 0.4s ease-in-out; margin-top: auto; background-color: var(--light-orange-background);}
+.order_sec .btnbox .primary_btn:hover {background-color: var(--primary-white); color: var(--light-bg-black);}
+
+

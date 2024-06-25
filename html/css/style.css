@@ -140,6 +140,7 @@ p {
 	--light-bg-color: #F2F2F2;
 	--blue-footer-bg: #006FB5;
 	--copy-text-color: #FFCE42;
+	--heading-text-color: #0A314A;
 	--box-shadow: 0px 0px 30px 0px #0000000D;
 
 	--light-orange-background: #EE7005;
@@ -477,3 +478,19 @@ p {
 .footer .ftr_car_image { position: absolute; left: 0; bottom: 0; display: block; }
 .footer .ftr_car_image .image_wrap { max-width: 697px; display: flex; }
 .footer .ftr_car_image .image_wrap img { width: 100%; height: auto; object-fit: cover; }
+
+
+.ourvision_section { padding: 96px 0; background-color: var(--light-white-background); }
+.vision_wrapper { display: block; position: relative; text-align: center; }
+.vision_wrapper .section_title { margin: 0; }
+.vision_wrapper .section_title h2 { color: var(--heading-text-color); }
+.vision_wrapper .section_title p { font-family: 'Manrope'; font-weight: 500; font-size: 24px; line-height: 1.75; color: var(--text-gray); margin-top: 32px; }
+
+
+.commitment_section { padding: 96px 0; background-color: var(--primary-white); }
+.commitment_wrapper { display: flex; justify-content: space-between; align-items: center; }
+.commitment_wrapper .left_part { display: block; max-width: 900px; }
+.commitment_wrapper .left_part h2 { font-family: 'Milky Honey'; font-weight: 400; font-size: 64px; line-height: 1.10; color: var(--heading-text-color); }
+.commitment_wrapper .left_part p { font-family: 'Manrope'; font-size: 24px; font-weight: 500; line-height: 1.75; color: var(--text-gray); margin-top: 32px; }
+.commitment_wrapper .right_part { position: relative; max-width: 703px; width: 100%; display: flex; padding: 39.773% 0 0 0; }
+.commitment_wrapper .right_part img { width: 100%; height: 100%; object-fit: cover; position: absolute; left: 0; top: 0; }

@@ -170,31 +170,31 @@ p {
 @media (min-width: 768px) {
 	.container {
 		width: 100%;
-		max-width: 750px;
+		max-width: 770px;
 	}
 }
 @media (min-width: 992px) {
 	.container {
 		width: 100%;
-		max-width: 970px;
+		max-width: 1024px;
 	}
 }
 @media (min-width: 1200px) {
 	.container {
 		width: 100%;
-		max-width: 1260px;
+		max-width: 1280px;
 	}
 }
 @media (min-width: 1300px) {
 	.container {
 		width: 100%;
-		max-width: 1350px;
+		max-width: 1366px;
 	}
 }
 @media (min-width: 1400px) {
 	.container {
 		width: 100%;
-		max-width: 1430px;
+		max-width: 1440px;
 	}
 }
 @media (min-width: 1600px) {

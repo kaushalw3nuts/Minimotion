@@ -32,21 +32,15 @@ $(document).ready(function() {
 			767: {
 				slidesPerView: 1,
 			},
+			768: {
+			  	slidesPerView: 2,
+			},
 			991: {
-			  slidesPerView: 2,
+				slidesPerView: 1,
 			},
 			1199: {
-			  slidesPerView: 2,
-			},
-			1300: {
-			  slidesPerView: 2,
-			},
-			1399: {
 				slidesPerView: 2,
 			},
-			1599: {
-				slidesPerView: 2,
-			}
 		},
 	});
 

@@ -1,15 +1,577 @@
 
-@media (min-width: 1600px) and (max-width: 1700px) {}
+@media (min-width: 1600px) and (max-width: 1740px) {
 
-@media (min-width: 1400px) and (max-width: 1599px) {}
+    .top_header { padding: 24px 22px; }
+    .bottom_header { padding: 0 22px; }
 
-@media (min-width: 1301px) and (max-width: 1399px) {}
 
-@media (min-width: 1200px) and (max-width: 1300px) {}
+    .product_section .best_section .content .title_wrap { margin: 0 20px 0 40px; }
+    .product_section .best_section .content .title_wrap span { font-size: 96px; }
+    .product_section .best_section .content .image_wrap { padding: 52% 0 0 0; }
+    .product_section .customer_section .content .title_wrap { margin: 0 20px 0 40px; }
+    .product_section .customer_section .content .title_wrap span { font-size: 96px; }
+    .product_section .customer_section .content .image_wrap { padding: 52% 0 0 0; }
 
-@media (min-width: 992px) and (max-width: 1199px) {}
 
-@media (min-width: 768px) and (max-width: 991px) {}
+    .about_wrapper .left_part .about_second_img { transform: rotate(-10deg); padding: 40px 24px; max-width: 550px; left: 58px; top: 10px; }
+    .about_wrapper .left_part .about_third_img { bottom: -30%; right: -43%; }
+    .about_section .first_wheel { max-width: 220px; }
+    .about_section .second_wheel { max-width: 320px; }
+
+
+    .drive_section .drive_like .content .title_wrap span { font-size: 96px; }
+    .drive_section .drive_luxury .content .title_wrap span { font-size: 96px; }
+
+
+    .gallery_wrapper { max-width: 1580px; }
+
+
+    .content_wrap .text_wrap { min-width: 520px; }
+    .content_wrap .text_wrap p { font-size: 22px; }
+    .content_wrap .slider_wrap { width: calc(100% - 520px - 96px); }
+    .review_slider .review_card { width: auto; }
+
+
+    .footer .ftr_car_image .image_wrap { max-width: 550px; }
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+    .top_header { padding: 24px 22px; }
+    .top_header .top_inner_header .right_block .search_box .search_text { min-width: 450px; }
+    .bottom_header { padding: 0 22px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select { padding: 16px 50px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select .current { font-size: 16px; }
+
+
+    .main_wapper { padding: 161px 0 0 0; }
+
+
+    .listing_wrapper .item_box { padding: 26px; }
+    .listing_wrapper .item_box .text { font-size: 22px; margin: 22px 0; }
+    .listing_wrapper .item_box .primary_btn { height: 54px; font-size: 22px; }
+
+
+    .product_section .best_section .content .title_wrap { margin: 0 20px 0 40px; }
+    .product_section .best_section .content .title_wrap h3 { font-size: 76px; }
+    .product_section .best_section .content .title_wrap span { font-size: 88px; }
+    .product_section .best_section .content .image_wrap { margin: -40px 0 0 auto; padding: 50% 0 0 0; max-width: 580px; }
+    .product_section .customer_section .content .title_wrap { margin: 0 20px 0 40px; }
+    .product_section .customer_section .content .title_wrap h3 { font-size: 76px; }
+    .product_section .customer_section .content .title_wrap span { font-size: 88px; }
+    .product_section .customer_section .content .image_wrap { margin: -40px 0 0 auto; padding: 50% 0 0 0; max-width: 500px; }
+
+
+    .about_wrapper { padding: 0 15px; }
+    .about_wrapper .left_part { width: calc(100% - 700px - 20px); }
+    .about_wrapper .left_part .about_first_img { max-width: 460px; }
+    .about_wrapper .left_part .about_second_img { transform: rotate(-10deg); padding: 40px 24px; max-width: 550px; left: 58px; top: 10px; }
+    .about_wrapper .left_part .about_third_img { bottom: -32%; right: -43%; max-width: 410px; }
+    .about_wrapper .left_part .dash_first_image { max-width: 130px; }
+    .about_wrapper .left_part .dash_second_image { max-width: 350px; }
+    .about_wrapper .right_part { max-width: 700px; }
+    .about_wrapper .right_part .about_info { margin-top: 26px; }
+    .about_wrapper .right_part .about_info ul li { font-size: 20px; }
+    .about_wrapper .right_part .about_info ul li::before { top: 4px; }
+    .about_wrapper .right_part .about_info ul + ul { margin-top: 26px; }
+    .about_wrapper .right_part .btnlink { margin-top: 56px; }
+    .about_wrapper .right_part .btnlink a { height: 54px; font-size: 22px; }
+    .about_section .first_wheel { max-width: 220px; }
+    .about_section .second_wheel { max-width: 320px; }
+
+
+    .drive_section .drive_like .content .title_wrap h3 { font-size: 76px; }
+    .drive_section .drive_like .content .title_wrap span { font-size: 88px; }
+    .drive_section .drive_luxury .content .title_wrap h3 { font-size: 76px; }
+    .drive_section .drive_luxury .content .title_wrap span { font-size: 88px; }
+
+
+    .gallery_wrapper { max-width: 1420px; }
+
+
+    .content_wrap .text_wrap { min-width: 520px; }
+    .content_wrap .text_wrap p { font-size: 22px; }
+    .content_wrap .slider_wrap { width: calc(100% - 520px - 96px); }
+    .review_slider .review_card { width: auto; }
+    .review_slider .review_card .person_profile .profile .name { font-size: 22px; }
+    .review_slider .review_card .person_profile .profile .date { font-size: 18px; }
+
+
+    .footer_wrapper .left_part .logo_block { max-width: 220px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 400px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 34px; width: 34px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 34px; }
+    .footer_wrapper .right_part .bottom_wrap .left_wrap p { font-size: 22px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .icon a { height: 34px; width: 34px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .text a { font-size: 22px; }
+    .footer .ftr_car_image .image_wrap { max-width: 500px; }
+}
+
+@media (min-width: 1301px) and (max-width: 1399px) {
+
+    .top_header { padding: 24px 22px; }
+    .top_header .top_inner_header .right_block .search_box .search_text { min-width: 400px; height: 50px; }
+    .top_header .top_inner_header .right_block .search_box .search_icon { top: 12px; left: 18px; }
+    .top_header .top_inner_header .right_block .social_box { margin-left: 30px; }
+    .bottom_header { padding: 0 22px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select { padding: 16px 50px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select .current { font-size: 16px; }
+
+
+    .main_wapper { padding: 161px 0 0 0; }
+
+
+    .bestseller_section { padding: 80px 0; }
+    .section_title { margin-bottom: 56px; }
+    .section_title h2 { font-size: 58px; }
+    .listing_wrapper .item_box { padding: 26px; }
+    .listing_wrapper .item_box .text { font-size: 22px; margin: 22px 0; }
+    .listing_wrapper .item_box .primary_btn { height: 54px; font-size: 22px; }
+    
+
+    .product_section .best_section { padding: 30px 0 0 0; }
+    .product_section .best_section .content .title_wrap { margin: 0 20px 0 40px; }
+    .product_section .best_section .content .title_wrap h3 { font-size: 70px; }
+    .product_section .best_section .content .title_wrap span { font-size: 80px; }
+    .product_section .best_section .content .image_wrap { margin: -40px 0 0 auto; padding: 50% 0 0 0; max-width: 550px; }
+    .product_section .customer_section { padding: 30px 0 0 0; }
+    .product_section .customer_section .content .title_wrap { margin: 0 20px 0 40px; }
+    .product_section .customer_section .content .title_wrap h3 { font-size: 70px; }
+    .product_section .customer_section .content .title_wrap span { font-size: 80px; }
+    .product_section .customer_section .content .image_wrap { margin: -40px 0 0 auto; padding: 50% 0 0 0; max-width: 470px; }
+
+
+    .about_wrapper { padding: 0 15px; }
+    .about_wrapper .left_part { width: calc(100% - 650px - 20px); }
+    .about_wrapper .left_part .about_first_img { max-width: 430px; }
+    .about_wrapper .left_part .about_second_img { transform: rotate(-10deg); padding: 40px 24px; max-width: 530px; left: 58px; top: 10px; }
+    .about_wrapper .left_part .about_third_img { bottom: -22%; right: -45%; max-width: 400px; }
+    .about_wrapper .left_part .dash_first_image { max-width: 130px; }
+    .about_wrapper .left_part .dash_second_image { max-width: 350px; }
+    .about_wrapper .right_part { max-width: 650px; }
+    .about_wrapper .right_part h2 { font-size: 58px; }
+    .about_wrapper .right_part p { font-size: 20px; margin-top: 26px; }
+    .about_wrapper .right_part .about_info { margin-top: 26px; }
+    .about_wrapper .right_part .about_info ul li { font-size: 20px; }
+    .about_wrapper .right_part .about_info ul li::before { top: 4px; }
+    .about_wrapper .right_part .about_info ul + ul { margin-top: 26px; }
+    .about_wrapper .right_part .btnlink { margin-top: 56px; }
+    .about_wrapper .right_part .btnlink a { height: 54px; font-size: 22px; }
+    .about_section .first_wheel { max-width: 210px; }
+    .about_section .second_wheel { max-width: 300px; }
+
+
+    .newarrival_section { padding: 80px 0; }
+
+
+    .drive_section .drive_like { padding: 30px 0 20px 0; }
+    .drive_section .drive_like .content .title_wrap h3 { font-size: 70px; }
+    .drive_section .drive_like .content .title_wrap span { font-size: 80px; }
+    .drive_section .drive_luxury { padding: 30px 0 20px 0; }
+    .drive_section .drive_luxury .content .title_wrap h3 { font-size: 70px; }
+    .drive_section .drive_luxury .content .title_wrap span { font-size: 80px; }
+    .drive_section .drive_like .content .image_wrap { margin: -40px auto 0 auto; }
+
+
+    .gallery_section { padding: 80px 0; }
+    .gallery_wrapper { margin: 0 auto 80px auto; max-width: 1346px; }
+    .follow_us_wrapper .top_follow_box { margin-bottom: 56px; }
+    .follow_us_wrapper .top_follow_box .follow { height: 60px; font-size: 22px; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap .text { font-size: 18px; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap + .follow_wrap::after { left: -38%; }
+
+
+    .customer_review { padding: 80px 0; }
+    .content_wrap .text_wrap { min-width: 520px; margin: 0 80px 0 0; }
+    .content_wrap .text_wrap h2 { font-size: 58px; }
+    .content_wrap .text_wrap p { font-size: 22px; }
+    .content_wrap .text_wrap .review_swiper_arrows { margin-top: 56px; }
+    .content_wrap .slider_wrap { width: calc(100% - 520px - 80px); }
+    .review_slider .review_card { width: auto; }
+    .review_slider .review_card .person_profile .img_wrap { height: 60px; width: 60px; }
+    .review_slider .review_card .person_profile .profile .name { font-size: 22px; }
+    .review_slider .review_card .person_profile .profile .date { font-size: 18px; }
+
+
+    .footer { padding: 80px 0 32px 0; }
+    .footer_wrapper .left_part .logo_block { max-width: 210px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 400px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 24px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li + li { margin-top: 24px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 32px; width: 32px; margin-right: 12px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 32px; }
+    .footer_wrapper .right_part .bottom_wrap .left_wrap p { font-size: 22px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .icon a { height: 32px; width: 32px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .text a { font-size: 22px; }
+    .footer .ftr_car_image .image_wrap { max-width: 470px; }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+    .top_header { padding: 24px 22px; }
+    .top_header .top_inner_header .logo_block a { max-width: 170px; }
+    .top_header .top_inner_header .right_block .search_box .search_text { min-width: 300px; height: 48px; }
+    .top_header .top_inner_header .right_block .search_box .search_icon { top: 12px; left: 18px; }
+    .top_header .top_inner_header .right_block .search_box .search_icon i { height: 22px; width: 22px; }
+    .top_header .top_inner_header .right_block .social_box { margin-left: 28px; }
+    .top_header .top_inner_header .right_block .social_box ul .icon a { height: 22px; width: 22px; }
+    .bottom_header { padding: 0 22px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select { padding: 16px 50px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select .current { font-size: 16px; }
+
+
+    .main_wapper { padding: 159px 0 0 0; }
+
+
+    .bestseller_section { padding: 80px 0; }
+    .section_title { margin-bottom: 50px; }
+    .section_title h2 { font-size: 54px; }
+    .listing_wrapper .item_box { padding: 24px; }
+    .listing_wrapper .item_box .text { font-size: 20px; margin: 20px 0; }
+    .listing_wrapper .item_box .primary_btn { height: 52px; font-size: 20px; }
+
+
+    .product_section .best_section { padding: 30px 0 0 0; }
+    .product_section .best_section .content .title_wrap { margin: 0 20px 0 20px; }
+    .product_section .best_section .content .title_wrap h3 { font-size: 64px; }
+    .product_section .best_section .content .title_wrap span { font-size: 70px; }
+    .product_section .best_section .content .image_wrap { margin: -30px 0 0 auto; padding: 48% 0 0 0; max-width: 500px; }
+    .product_section .customer_section { padding: 30px 0 0 0; }
+    .product_section .customer_section .content .title_wrap { margin: 0 20px 0 20px; }
+    .product_section .customer_section .content .title_wrap h3 { font-size: 64px; }
+    .product_section .customer_section .content .title_wrap span { font-size: 70px; }
+    .product_section .customer_section .content .image_wrap { margin: -30px 0 0 auto; padding: 48% 0 0 0; max-width: 420px; }
+
+
+    .about_wrapper { padding: 0 15px; }
+    .about_wrapper .left_part { width: calc(100% - 600px - 20px); }
+    .about_wrapper .left_part .about_first_img { max-width: 400px; right: 12%; }
+    .about_wrapper .left_part .about_second_img { transform: rotate(-10deg); padding: 40px 24px; max-width: 510px; left: 58px; top: 10px; }
+    .about_wrapper .left_part .about_third_img { bottom: -30%; right: -47%; transform: rotate(5deg); max-width: 380px; }
+    .about_wrapper .left_part .dash_first_image { max-width: 120px; }
+    .about_wrapper .left_part .dash_second_image { max-width: 300px; bottom: -10%; }
+    .about_wrapper .right_part { max-width: 600px; }
+    .about_wrapper .right_part h2 { font-size: 52px; }
+    .about_wrapper .right_part p { font-size: 20px; margin-top: 26px; }
+    .about_wrapper .right_part .about_info { margin-top: 26px; }
+    .about_wrapper .right_part .about_info ul li { font-size: 20px; }
+    .about_wrapper .right_part .about_info ul li::before { top: 4px; }
+    .about_wrapper .right_part .about_info ul + ul { margin-top: 26px; }
+    .about_wrapper .right_part .btnlink { margin-top: 50px; }
+    .about_wrapper .right_part .btnlink a { height: 52px; font-size: 20px; }
+    .about_section .first_wheel { max-width: 190px; top: 60px; }
+    .about_section .second_wheel { max-width: 280px; bottom: 50px; }
+
+
+    .newarrival_section { padding: 80px 0; }
+
+
+    .drive_section .drive_like { padding: 30px 0 20px 0; }
+    .drive_section .drive_like .content .title_wrap h3 { font-size: 64px; }
+    .drive_section .drive_like .content .title_wrap span { font-size: 70px; }
+    .drive_section .drive_luxury { padding: 30px 0 20px 0; }
+    .drive_section .drive_luxury .content .title_wrap h3 { font-size: 64px; }
+    .drive_section .drive_luxury .content .title_wrap span { font-size: 70px; }
+    .drive_section .drive_like .content .image_wrap { margin: -40px auto 0 auto; padding: 66% 0 0 0; }
+    .drive_section .drive_luxury .content .image_wrap { padding: 66% 0 0 0; }
+
+
+    .gallery_section { padding: 80px 0; }
+    .gallery_wrapper { margin: 0 auto 80px auto; max-width: 1260px; }
+    .follow_us_wrapper .top_follow_box { margin-bottom: 50px; }
+    .follow_us_wrapper .top_follow_box .follow { height: 58px; font-size: 20px; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap .text { font-size: 18px; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap + .follow_wrap::after { left: -38%; }
+
+
+    .customer_review { padding: 80px 0; }
+    .content_wrap .text_wrap { min-width: 500px; margin: 0 80px 0 0; }
+    .content_wrap .text_wrap h2 { font-size: 52px; }
+    .content_wrap .text_wrap p { font-size: 20px; }
+    .content_wrap .text_wrap .review_swiper_arrows { margin-top: 50px; }
+    .content_wrap .text_wrap .review_swiper_arrows .swiper-btn-prev { height: 50px; width: 50px; }
+    .content_wrap .text_wrap .review_swiper_arrows .swiper-btn-next { height: 50px; width: 50px; }
+    .content_wrap .slider_wrap { width: calc(100% - 500px - 80px); }
+    .review_slider .review_card { width: auto; }
+    .review_slider .review_card .person_profile .img_wrap { height: 60px; width: 60px; }
+    .review_slider .review_card .person_profile .profile .name { font-size: 22px; }
+    .review_slider .review_card .person_profile .profile .date { font-size: 18px; }
+    .review_slider .review_card .review_content { font-size: 18px; }
+
+
+    .footer { padding: 80px 0 32px 0; }
+    .footer_wrapper .left_part { width: calc(100% - 70% - 20px); }
+    .footer_wrapper .left_part .logo_block { max-width: 190px; }
+    .footer_wrapper .right_part { width: 70%; }
+    .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 400px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap .title { font-size: 32px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 20px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li + li { margin-top: 18px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 32px; width: 32px; margin-right: 12px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 32px; }
+    .footer_wrapper .right_part .bottom_wrap .left_wrap p { font-size: 20px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .icon a { height: 32px; width: 32px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .text a { font-size: 20px; }
+    .footer .ftr_car_image .image_wrap { max-width: 380px; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .top_header { padding: 24px 15px; }
+    .top_header .top_inner_header .logo_block a { max-width: 160px; }
+    .top_header .top_inner_header .right_block .search_box .search_icon { top: 12px; left: 18px; }
+    .top_header .top_inner_header .right_block .search_box .search_icon i { height: 20px; width: 20px; }
+    .top_header .top_inner_header .right_block .search_box .search_text { min-width: 260px; height: 46px; }
+    .top_header .top_inner_header .right_block .social_box { margin-left: 26px; }
+    .top_header .top_inner_header .right_block .social_box ul .icon a { height: 22px; width: 22px; }
+    .bottom_header { padding: 0 15px; }
+    .bottom_header .bottom_inner_header .navigation ul li + li { margin-left: 28px; }
+    .bottom_header .bottom_inner_header .navigation ul li a { font-size: 16px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select { padding: 16px 50px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select .current { font-size: 16px; }
+
+
+    .main_wapper { padding: 155px 0 0 0; }
+    .container { padding: 0 15px; }
+
+
+    .bestseller_section { padding: 70px 0; }
+    .section_title { margin-bottom: 50px; }
+    .section_title h2 { font-size: 54px; }
+    .listing_wrapper .row { margin: 0 -15px; row-gap: 30px; }
+    .listing_wrapper .row>* { padding: 0 15px; }
+    .listing_wrapper .item_box { padding: 24px; }
+    .listing_wrapper .item_box .text { font-size: 18px; margin: 20px 0; }
+    .listing_wrapper .item_box .primary_btn { height: 48px; font-size: 18px; }
+
+
+    .product_section .best_section { padding: 30px 0 0 0; }
+    .product_section .best_section .content .title_wrap { margin: 0 15px 0 15px; }
+    .product_section .best_section .content .title_wrap h3 { font-size: 54px; }
+    .product_section .best_section .content .title_wrap span { font-size: 60px; }
+    .product_section .best_section .content .image_wrap { margin: -20px 0 0 auto; padding: 62% 0 0 0; }
+    .product_section .customer_section { padding: 30px 0 0 0; }
+    .product_section .customer_section .content .title_wrap { margin: 0 15px 0 15px; }
+    .product_section .customer_section .content .title_wrap h3 { font-size: 54px; }
+    .product_section .customer_section .content .title_wrap span { font-size: 60px; }
+    .product_section .customer_section .content .image_wrap { margin: -20px 0 0 auto; padding: 62% 0 0 0; }
+    .product_section .customer_section .content .image_wrap img { object-fit: contain; }
+
+
+    .about_section { padding: 136px 0 450px 0; }
+    .about_wrapper { padding: 0 15px; }
+    .about_wrapper .left_part { width: calc(100% - 500px - 20px); }
+    .about_wrapper .left_part .about_first_img { max-width: 360px; transform: rotate(5deg); right: 12%; }
+    .about_wrapper .left_part .about_second_img { transform: rotate(-10deg); padding: 30px 24px; max-width: 410px; left: 20px; top: 10px; }
+    .about_wrapper .left_part .about_third_img { right: 0; bottom: -54%; transform: rotate(5deg); max-width: 380px; }
+    .about_wrapper .left_part .dash_first_image { max-width: 100px; left: 18px; }
+    .about_wrapper .left_part .dash_second_image { max-width: 200px; right: auto; left: 20px; bottom: -10%; }
+    .about_wrapper .right_part { max-width: 500px; }
+    .about_wrapper .right_part h2 { font-size: 48px; }
+    .about_wrapper .right_part p { font-size: 20px; margin-top: 26px; }
+    .about_wrapper .right_part .about_info { margin-top: 26px; }
+    .about_wrapper .right_part .about_info ul { flex-direction: column; align-items: flex-start; }
+    .about_wrapper .right_part .about_info ul li { font-size: 20px; }
+    .about_wrapper .right_part .about_info ul li::before { top: 4px; }
+    .about_wrapper .right_part .about_info ul li + li { margin: 26px 0 0 0; }
+    .about_wrapper .right_part .about_info ul + ul { margin-top: 26px; }
+    .about_wrapper .right_part .btnlink { margin-top: 40px; }
+    .about_wrapper .right_part .btnlink a { height: 50px; font-size: 20px; }
+    .about_section .first_wheel { max-width: 190px; top: 60px; }
+    .about_section .second_wheel { max-width: 280px; bottom: 50px; }
+
+
+    .newarrival_section { padding: 70px 0; }
+
+
+    .drive_section .drive_like { padding: 30px 0 20px 0; }
+    .drive_section .drive_like .content .title_wrap h3 { font-size: 54px; }
+    .drive_section .drive_like .content .title_wrap span { font-size: 60px; }
+    .drive_section .drive_luxury { padding: 30px 0 20px 0; }
+    .drive_section .drive_luxury .content .title_wrap h3 { font-size: 54px; }
+    .drive_section .drive_luxury .content .title_wrap span { font-size: 60px; }
+    .drive_section .drive_like .content .image_wrap { margin: 0 auto; padding: 70% 0 0 0; }
+    .drive_section .drive_luxury .content .image_wrap { margin: 0 auto; padding: 73% 0 0 0; }
+
+
+    .gallery_section { padding: 70px 0; }
+    .gallery_wrapper { margin: 0 auto 70px auto; max-width: 1018px; }
+    .follow_us_wrapper .top_follow_box { margin-bottom: 50px; }
+    .follow_us_wrapper .top_follow_box .follow { height: 54px; font-size: 20px; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap .icon { max-width: 60px; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap .text { font-size: 18px; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap + .follow_wrap::after { left: -38%; }
+
+
+    .customer_review { padding: 70px 0; }
+    .content_wrap .text_wrap { min-width: 480px; margin: 0 70px 0 0; }
+    .content_wrap .text_wrap h2 { font-size: 48px; }
+    .content_wrap .text_wrap p { font-size: 20px; }
+    .content_wrap .text_wrap .review_swiper_arrows { margin-top: 40px; }
+    .content_wrap .text_wrap .review_swiper_arrows .swiper-btn-prev { height: 46px; width: 46px; }
+    .content_wrap .text_wrap .review_swiper_arrows .swiper-btn-next { height: 46px; width: 46px; }
+    .content_wrap .slider_wrap { width: calc(100% - 480px - 70px); }
+    .review_slider .review_card { width: auto; }
+    .review_slider .review_card .person_profile .img_wrap { height: 60px; width: 60px; }
+    .review_slider .review_card .person_profile .profile .name { font-size: 20px; }
+    .review_slider .review_card .person_profile .profile .date { font-size: 16px; }
+    .review_slider .review_card .review_content { font-size: 18px; }
+
+
+    .footer { padding: 70px 0 32px 0; }
+    .footer_wrapper .left_part .logo_block { max-width: 180px; }
+    .footer_wrapper .right_part .top_wrap { flex-wrap: wrap; margin-bottom: 70px; row-gap: 30px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 100%; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul { margin-top: 10px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 18px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 30px; width: 30px; margin-right: 12px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 30px; }
+    .footer_wrapper .right_part .bottom_wrap .left_wrap p { font-size: 18px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .icon a { height: 30px; width: 30px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .text a { font-size: 18px; }
+    .footer .ftr_car_image .image_wrap { max-width: 350px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .top_header { padding: 20px 15px; }
+    .top_header .top_inner_header .logo_block a { max-width: 150px; }
+    .top_header .top_inner_header .right_block .search_box .search_icon { top: 11px; left: 14px; }
+    .top_header .top_inner_header .right_block .search_box .search_icon i { height: 18px; width: 18px; }
+    .top_header .top_inner_header .right_block .search_box .search_text { min-width: 200px; height: 40px; font-size: 14px; padding: 0 16px 2px 40px; }
+    .top_header .top_inner_header .right_block .social_box { margin-left: 20px; }
+    .top_header .top_inner_header .right_block .social_box ul .icon a { height: 20px; width: 20px; }
+    .top_header .top_inner_header .right_block .social_box ul .text a { font-size: 14px; }
+    .bottom_header { padding: 0 15px; }
+    .bottom_header .bottom_inner_header .navigation ul li + li { margin-left: 24px; }
+    .bottom_header .bottom_inner_header .navigation ul li a { font-size: 16px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select { padding: 16px 50px; }
+    .bottom_header .bottom_inner_header .categoires .nice-select .current { font-size: 16px; }
+
+
+    .main_wapper { padding: 144px 0 0 0; }
+    .container { padding: 0 15px; }
+
+
+    .bestseller_section { padding: 60px 0; }
+    .section_title { margin-bottom: 40px; }
+    .section_title h2 { font-size: 48px; }
+    .listing_wrapper .row { margin: 0 -15px; row-gap: 30px; }
+    .listing_wrapper .row>* { padding: 0 15px; }
+    .listing_wrapper .item_box { padding: 20px; }
+    .listing_wrapper .item_box .text { font-size: 20px; margin: 20px 0; }
+    .listing_wrapper .item_box .primary_btn { height: 50px; font-size: 20px; }
+
+
+    .product_section { flex-direction: column; }
+    .product_section .best_section { width: 100%; padding: 30px 0 0 0; }
+    .product_section .best_section .content .title_wrap { margin: 0 15px 0 15px; }
+    .product_section .best_section .content .title_wrap h3 { font-size: 54px; }
+    .product_section .best_section .content .title_wrap span { font-size: 60px; }
+    .product_section .best_section .content .image_wrap { margin: 0 0 0 auto; padding: 54% 0 0 0; }
+    .product_section .customer_section { width: 100%; padding: 30px 0 0 0; }
+    .product_section .customer_section .content .title_wrap { margin: 0 15px 0 15px; }
+    .product_section .customer_section .content .title_wrap h3 { font-size: 54px; }
+    .product_section .customer_section .content .title_wrap span { font-size: 60px; }
+    .product_section .customer_section .content .image_wrap { margin: 0 0 0 auto; padding: 54% 0 0 0; }
+    
+    
+    .about_wrapper { flex-direction: column; padding: 0 15px; }
+    .about_wrapper .left_part { width: 100%; }
+    .about_wrapper .left_part .about_first_img { max-width: 100%; margin: 0; right: auto; transform: rotate(0deg); }
+    .about_wrapper .left_part .about_second_img { max-width: 100%; left: auto; top: auto; transform: rotate(0deg); margin: 70px 0 0 0; padding: 20px; }
+    .about_wrapper .left_part .about_third_img { max-width: 100%; position: relative; margin: 70px 0 0 0; right: auto; bottom: auto; transform: rotate(0deg); }
+    .about_wrapper .left_part .about_third_img .third_image { max-width: 100%; }
+    .about_wrapper .left_part .dash_first_image { max-width: 100px; top: 28%; }
+    .about_wrapper .left_part .dash_second_image { bottom: 36%; max-width: 260px; right: 20%; }
+    .about_wrapper .right_part h2 { font-size: 48px; }
+    .about_wrapper .right_part p { font-size: 20px; margin-top: 26px; }
+    .about_wrapper .right_part .about_info { margin-top: 26px; }
+    .about_wrapper .right_part .about_info ul li { font-size: 20px; }
+    .about_wrapper .right_part .about_info ul li::before { top: 2px; }
+    .about_wrapper .right_part .about_info ul li + li { margin-left: 40px; }
+    .about_wrapper .right_part .about_info ul + ul { margin-top: 26px; }
+    .about_wrapper .right_part .btnlink { margin-top: 40px; }
+    .about_wrapper .right_part .btnlink a { height: 50px; font-size: 20px; }
+    .about_section .first_wheel { max-width: 170px; top: 50px; }
+    .about_section .second_wheel { max-width: 300px; bottom: 40px; }
+    
+    
+    .newarrival_section { padding: 60px 0; }
+    
+    
+    .drive_section { flex-direction: column; }
+    .drive_section::before { display: none; }
+    .drive_section .drive_like { width: 100%; padding: 30px 0 20px 0; }
+    .drive_section .drive_like .content .title_wrap h3 { font-size: 54px; }
+    .drive_section .drive_like .content .title_wrap span { font-size: 60px; }
+    .drive_section .drive_luxury { width: 100%; padding: 30px 0 20px 0; }
+    .drive_section .drive_luxury .content .title_wrap h3 { font-size: 54px; }
+    .drive_section .drive_luxury .content .title_wrap span { font-size: 60px; }
+    .drive_section .drive_like .content .image_wrap { margin: 0 auto; }
+    .drive_section .drive_luxury .content .image_wrap { margin: 0 auto; }
+    
+    
+    .gallery_section { padding: 60px 0; }
+    .gallery_wrapper { margin: 0 auto 60px auto; max-width: 762px; }
+    .gallery_rowwrap .left_block, 
+    .gallery_rowwrap .right_block { flex-direction: row; gap: 24px; }
+    .gallery_rowwrap .left_block .first_img, 
+    .gallery_rowwrap .left_block .second_img, 
+    .gallery_rowwrap .right_block .first_img, 
+    .gallery_rowwrap .right_block .second_img { width: 50%; padding: 48.388% 0 0 0; }
+    .follow_us_wrapper .top_follow_box { margin-bottom: 40px; }
+    .follow_us_wrapper .top_follow_box .follow { height: 54px; font-size: 20px; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap + .follow_wrap::after { left: -18%; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap .icon { max-width: 60px; }
+    .follow_us_wrapper .bottom_follow_box .follow_wrap .text { font-size: 18px; }
+    
+    
+    .customer_review { padding: 60px 0; }
+    .content_wrap { flex-direction: column; }
+    .content_wrap .text_wrap { min-width: auto; margin: 0 0 60px 0; }
+    .content_wrap .text_wrap h2 { font-size: 48px; }
+    .content_wrap .text_wrap p { font-size: 20px; }
+    .content_wrap .text_wrap .review_swiper_arrows { margin-top: 40px; }
+    .content_wrap .text_wrap .review_swiper_arrows .swiper-btn-prev { height: 46px; width: 46px; }
+    .content_wrap .text_wrap .review_swiper_arrows .swiper-btn-next { height: 46px; width: 46px; }
+    .content_wrap .slider_wrap { width: 100%; }
+    .review_slider::after { display: none; }
+    .review_slider .review_card { width: auto; }
+    .review_slider .review_card .person_profile .img_wrap { height: 56px; width: 56px; }
+    .review_slider .review_card .person_profile .profile .name { font-size: 20px; }
+    .review_slider .review_card .person_profile .profile .date { font-size: 16px; }
+    .review_slider .review_card .review_content { font-size: 18px; }
+    
+    
+    .footer { padding: 60px 0 32px 0; }
+    .footer_wrapper { flex-direction: column; gap: 40px; }
+    .footer_wrapper .left_part { width: 100%; }
+    .footer_wrapper .left_part .logo_block { max-width: 180px; }
+    .footer_wrapper .right_part { width: 100%; }
+    .footer_wrapper .right_part .top_wrap { flex-direction: column; margin-bottom: 60px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 100%; }
+    .footer_wrapper .right_part .top_wrap .link_wrap + .link_wrap { margin-top: 30px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul { margin-top: 10px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 16px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 30px; width: 30px; margin-right: 12px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 30px; }
+    .footer_wrapper .right_part .bottom_wrap .left_wrap p { font-size: 20px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .icon a { height: 30px; width: 30px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .text a { font-size: 20px; }
+    .footer .ftr_car_image { position: relative; left: auto; bottom: -32px; }
+    .footer .ftr_car_image .image_wrap { max-width: 500px; }
+}
 
 @media (max-width: 991px) {}
 
@@ -57,7 +619,28 @@
     .product_section .customer_section .content .title_wrap { margin: 0 15px 0 15px; }
     .product_section .customer_section .content .title_wrap h3 { font-size: 50px; }
     .product_section .customer_section .content .title_wrap span { font-size: 46px; }
-    .product_section .customer_section .content .image_wrap { margin: 0; padding: 62% 0 0 0; }
+    .product_section .customer_section .content .image_wrap { margin: 0; padding: 72% 0 0 0; }
+
+
+    .about_wrapper { flex-direction: column; padding: 0 15px; }
+    .about_wrapper .left_part { width: 100%; }
+    .about_wrapper .left_part .about_first_img { max-width: 100%; margin: 0; right: auto; transform: rotate(0deg); }
+    .about_wrapper .left_part .about_second_img { max-width: 100%; left: auto; top: auto; transform: rotate(0deg); margin: 70px 0 0 0; padding: 20px; }
+    .about_wrapper .left_part .about_third_img { max-width: 100%; position: relative; margin: 70px 0 0 0; right: auto; bottom: auto; transform: rotate(0deg); }
+    .about_wrapper .left_part .dash_first_image { max-width: 70px; top: 28%; }
+    .about_wrapper .left_part .dash_second_image { bottom: 33%; max-width: 230px; right: 50px; }
+    .about_wrapper .right_part h2 { font-size: 44px; }
+    .about_wrapper .right_part p { font-size: 18px; margin-top: 24px; }
+    .about_wrapper .right_part .about_info { margin-top: 24px; }
+    .about_wrapper .right_part .about_info ul { flex-direction: column; align-items: flex-start; }
+    .about_wrapper .right_part .about_info ul li { font-size: 18px; }
+    .about_wrapper .right_part .about_info ul li::before { top: 2px; }
+    .about_wrapper .right_part .about_info ul li + li { margin: 20px 0 0 0; }
+    .about_wrapper .right_part .about_info ul + ul { margin-top: 20px; }
+    .about_wrapper .right_part .btnlink { margin-top: 30px; }
+    .about_wrapper .right_part .btnlink a { height: 46px; font-size: 18px; }
+    .about_section .first_wheel { max-width: 150px; top: 50px; }
+    .about_section .second_wheel { max-width: 260px; bottom: 40px; }
 
 
     .newarrival_section { padding: 50px 0; }
@@ -113,15 +696,19 @@
     .footer_wrapper .left_part { width: 100%; }
     .footer_wrapper .left_part .logo_block { max-width: 160px; }
     .footer_wrapper .right_part { width: 100%; }
-    .footer_wrapper .right_part .top_wrap { flex-direction: column; }
+    .footer_wrapper .right_part .top_wrap { flex-direction: column; margin-bottom: 50px; }
     .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 100%; }
+    .footer_wrapper .right_part .top_wrap .link_wrap + .link_wrap { margin-top: 30px; }
     .footer_wrapper .right_part .top_wrap .link_wrap .title { font-size: 30px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul { margin-top: 10px; }
-    .footer_wrapper .right_part .top_wrap .link_wrap ul li {  }
-
-
-    /* ====productpage==== */
-    .bestseller_section.productpage .product_list .filter_wrap .filterbox .nice-select {min-width: 161px;}
-    .pagination_wrap .pri_next .btnb .primary_btn {font-size: 18px; gap: 10px; padding: 0 19px;}
-    /* ====productpage==== */
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 16px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 18px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 26px; width: 26px; margin-right: 6px; margin-top: 4px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 26px; }
+    .footer_wrapper .right_part .bottom_wrap { flex-direction: column; align-items: flex-start; }
+    .footer_wrapper .right_part .bottom_wrap .left_wrap p { font-size: 18px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .icon a { height: 30px; width: 30px; }
+    .footer_wrapper .right_part .bottom_wrap .social_box ul .text a { font-size: 20px; }
+    .footer .ftr_car_image { position: relative; left: auto; bottom: -32px; }
 }

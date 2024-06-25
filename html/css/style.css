@@ -449,9 +449,10 @@ p {
 .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 423px; display: block; }
 .footer_wrapper .right_part .top_wrap .link_wrap .title { font-family: 'Milky Honey'; font-weight: 400; font-size: 34px; line-height: 1.10; color: var(--primary-white); font-style: normal; }
 .footer_wrapper .right_part .top_wrap .link_wrap ul { display: block; margin-top: 24px; }
-.footer_wrapper .right_part .top_wrap .link_wrap ul li { display: flex; font-family: 'Manrope'; font-weight: 500; font-size: 24px; line-height: 2.67; color: var(--primary-white); }
-.footer_wrapper .right_part .top_wrap .link_wrap ul li .link { display: flex; font-family: 'Manrope'; font-weight: 500; font-size: 24px; line-height: 2.67; color: var(--primary-white); transition: all 0.4s ease-in-out; }
+.footer_wrapper .right_part .top_wrap .link_wrap ul li { display: flex; font-family: 'Manrope'; font-weight: 500; font-size: 24px; line-height: 1.55; color: var(--primary-white); }
+.footer_wrapper .right_part .top_wrap .link_wrap ul li .link { display: flex; font-family: 'Manrope'; font-weight: 500; font-size: 24px; line-height: 1.55; color: var(--primary-white); transition: all 0.4s ease-in-out; }
 .footer_wrapper .right_part .top_wrap .link_wrap ul li .link:hover { color: var(--text-black); }
+.footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 36px; }
 .footer_wrapper .right_part .top_wrap .contact_wrap ul li + li { margin-top: 24px; }
 .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link { line-height: 1.58; }
 .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { display: flex; height: 38px; width: 38px; font-size: 0; margin-right: 16px; }

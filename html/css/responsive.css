@@ -194,6 +194,8 @@
     .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 400px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 24px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li + li { margin-top: 24px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 32px; width: 32px; margin-right: 12px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 32px; }
     .footer_wrapper .right_part .bottom_wrap .left_wrap p { font-size: 22px; }
@@ -302,6 +304,8 @@
     .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 400px; }
     .footer_wrapper .right_part .top_wrap .link_wrap .title { font-size: 32px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 20px; }
+    .footer_wrapper .right_part .top_wrap .contact_wrap ul li + li { margin-top: 18px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 32px; width: 32px; margin-right: 12px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 32px; }
@@ -420,6 +424,7 @@
     .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 100%; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul { margin-top: 10px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 18px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 30px; width: 30px; margin-right: 12px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 30px; }
@@ -550,9 +555,9 @@
     .footer_wrapper .right_part .top_wrap .link_wrap { max-width: 100%; }
     .footer_wrapper .right_part .top_wrap .link_wrap + .link_wrap { margin-top: 30px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul { margin-top: 10px; }
-    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; line-height: 1.55; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 16px; }
-    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; line-height: 1.55; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 20px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 30px; width: 30px; margin-right: 12px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 30px; }
     .footer_wrapper .right_part .bottom_wrap .left_wrap p { font-size: 20px; }
@@ -690,9 +695,9 @@
     .footer_wrapper .right_part .top_wrap .link_wrap + .link_wrap { margin-top: 30px; }
     .footer_wrapper .right_part .top_wrap .link_wrap .title { font-size: 30px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul { margin-top: 10px; }
-    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; line-height: 1.55; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li { font-size: 20px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul li + li { margin-top: 16px; }
-    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 18px; line-height: 1.55; }
+    .footer_wrapper .right_part .top_wrap .link_wrap ul li .link { font-size: 18px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { height: 26px; width: 26px; margin-right: 6px; margin-top: 4px; }
     .footer_wrapper .right_part .top_wrap .contact_wrap ul li .link i { min-width: 26px; }
     .footer_wrapper .right_part .bottom_wrap { flex-direction: column; align-items: flex-start; }

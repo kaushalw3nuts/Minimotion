@@ -667,3 +667,12 @@ background-color: #000000; border: 1px solid var(--light-border-color); border-r
 .order_sec .btnbox .primary_btn:hover {background-color: var(--primary-white); color: var(--light-bg-black);}
 
 
+.gallery_sec {margin: 96px 0;}
+.gallery_sec .gallery_grp {position: relative;}
+.gallery_sec .gallery_grp .gallery_head {padding-bottom: 64px;}
+.gallery_sec .gallery_grp .gallery_head h2 {font-size: 64px; color: var(--light-bg-black); line-height: 70.53px; font-weight: 400; font-family: 'Milky Honey';}
+.gallery_sec .gallery_grp .row {row-gap: 26px;}
+.gallery_sec .gallery_grp .gallery_img {position: relative; width: 100%; display: flex; padding: 99.78% 0 0 0;}
+.gallery_sec .gallery_grp .gallery_img img {width: 100%; height: 100%; object-fit: cover; position: absolute;
+left: 0; top: 0;}
+

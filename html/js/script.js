@@ -50,5 +50,47 @@ $(document).ready(function() {
 		},
 	});
 
+
+
+
+
 	// ===== Review slider: End =====
+
+	// ===== releted product slider: Start =====
+
+	let reletedCarousel = new Swiper('.releted_swiper', {
+		direction: 'horizontal',
+		spaceBetween: 30,
+		speed: 1000,
+		slidesPerView:3,
+		navigation: {
+			nextEl: '.pswiper-btn-next',
+			prevEl: '.pswiper-btn-prev',
+		},
+		
+	});
+
+	var swiperProduct = new Swiper(".mySwiper", {
+		spaceBetween: 10,
+		slidesPerView: 3,
+		freeMode: true,
+		watchSlidesProgress: true,
+	  });
+	  var swiperProduct2 = new Swiper(".mySwiper2", {
+		spaceBetween: 10,
+		navigation: {
+		  nextEl: ".swiper-button-next",
+		  prevEl: ".swiper-button-prev",
+		},
+		thumbs: {
+		  swiper: swiper,
+		},
+	  });
+
+	// ===== releted product slider: End =====
+	
+
+	
+	
 });
+

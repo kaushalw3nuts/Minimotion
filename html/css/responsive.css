@@ -118,4 +118,10 @@
     .footer_wrapper .right_part .top_wrap .link_wrap .title { font-size: 30px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul { margin-top: 10px; }
     .footer_wrapper .right_part .top_wrap .link_wrap ul li {  }
+
+
+    /* ====productpage==== */
+    .bestseller_section.productpage .product_list .filter_wrap .filterbox .nice-select {min-width: 161px;}
+    .pagination_wrap .pri_next .btnb .primary_btn {font-size: 18px; gap: 10px; padding: 0 19px;}
+    /* ====productpage==== */
 }

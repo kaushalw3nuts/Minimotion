@@ -200,7 +200,7 @@ p {
 @media (min-width: 1600px) {
 	.container {
 		width: 100%;
-		max-width: 1632px;
+		max-width: 1716px;
 	}
 }
 
@@ -370,7 +370,7 @@ p {
 
 
 .gallery_section { display: block; position: relative; padding: 96px 0; background-color: var(--primary-white); }
-.gallery_wrapper { max-width: 1796px; margin: 0 auto 96px auto; padding: 0 12px; }
+.gallery_wrapper { max-width: 1696px; margin: 0 auto 96px auto; padding: 0 12px; }
 .gallery_rowwrap { display: block; position: relative; }
 .gallery_rowwrap .row { margin: 0 -12px; row-gap: 24px; }
 .gallery_rowwrap .row>* { padding: 0 12px; }

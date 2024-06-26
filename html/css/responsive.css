@@ -36,6 +36,15 @@
 
     .pswiper-btn-prev {left: -45px;}
     .pswiper-btn-next {right: 15px;}
+
+
+    .who_wrapper .left_part { padding: 45% 0 0 0; max-width: 640px; }
+    .who_wrapper .left_part img { object-fit: contain; }
+
+
+    .commitment_wrapper .left_part { max-width: 850px; }
+    .commitment_wrapper .right_part { padding: 36.5% 0 0 0; max-width: 600px; }
+    .commitment_wrapper .right_part img { object-fit: contain; }
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
@@ -117,6 +126,31 @@
     .stock_detail .stock_dtl p + p {margin-top: 30px;}
     .fullimg_gallary.swiper {height: 220px;}
     .fullimg_gallary.mySwiper .swiper-slide {padding: 15px 0;}
+
+
+    .who_wrapper .left_part { padding: 47% 0 0 0; max-width: 600px; }
+    .who_wrapper .right_part { max-width: 760px; }
+    .who_wrapper .right_part p { font-size: 22px; }
+
+
+    .vision_wrapper .section_title .image_box .img { width: 80px; height: 80px; }
+    .vision_wrapper .section_title p { font-size: 22px; }
+
+
+    .commitment_wrapper .left_part { max-width: 800px; }
+    .commitment_wrapper .left_part p { font-size: 22px; }
+    .commitment_wrapper .right_part { padding: 38% 0 0 0; max-width: 560px; }
+
+
+    .about_minimotion_wrapper .left_section .first_image { right: -10%; }
+    .about_minimotion_wrapper .left_section .second_image { max-width: 410px; }
+    .about_minimotion_wrapper .right_section .first_image { max-width: 380px; }
+    .about_minimotion_wrapper .right_section .second_image { max-width: 380px; }
+    .about_minimotion_wrapper .center_section .logo_block { max-width: 320px; }
+    .about_minimotion_wrapper .center_section .follow { font-size: 58px; margin-top: 50px; }
+    .about_minimotion_wrapper .center_section .btnlink a { height: 110px; padding: 0 70px 8px 70px; font-size: 50px; }
+    .about_minimotion_wrapper .center_section .social li a { height: 50px; width: 50px; }
+    .about_minimotion_wrapper .center_section .social li + li { margin-left: 50px; }
 }
 
 @media (min-width: 1301px) and (max-width: 1399px) {
@@ -246,6 +280,36 @@
     .gallery_sec .gallery_grp .gallery_head h2 {font-size: 58px;}
     .gallery_sec .gallery_grp .gallery_head {padding-bottom: 56px;}
     /* ====product==== */
+
+
+    .who_wrapper .left_part { padding: 45.7% 0 0 0; max-width: 550px; }
+    .who_wrapper .right_part { max-width: 750px; }
+    .who_wrapper .right_part h2 { font-size: 58px; }
+    .who_wrapper .right_part p { font-size: 20px; margin-top: 26px; }
+
+
+    .ourvision_section { padding: 80px 0; }
+    .vision_wrapper .section_title .image_box .img { width: 80px; height: 80px; }
+    .vision_wrapper .section_title p { font-size: 20px; margin-top: 26px; }
+
+
+    .commitment_section { padding: 80px 0; }
+    .commitment_wrapper .left_part { max-width: 750px; }
+    .commitment_wrapper .left_part h2 { font-size: 58px; }
+    .commitment_wrapper .left_part p { font-size: 20px; margin-top: 26px; }
+    .commitment_wrapper .right_part { padding: 38.7% 0 0 0; max-width: 540px; }
+
+
+    .about_minimotion { padding: 64px 0 80px 0; }
+    .about_minimotion_wrapper .left_section .first_image { right: -10%; }
+    .about_minimotion_wrapper .left_section .second_image { max-width: 390px; }
+    .about_minimotion_wrapper .right_section .first_image { max-width: 360px; }
+    .about_minimotion_wrapper .right_section .second_image { max-width: 370px; }
+    .about_minimotion_wrapper .center_section .logo_block { max-width: 300px; }
+    .about_minimotion_wrapper .center_section .follow { font-size: 58px; margin-top: 50px; }
+    .about_minimotion_wrapper .center_section .btnlink a { height: 100px; padding: 0 60px 8px 60px; font-size: 50px; }
+    .about_minimotion_wrapper .center_section .social li a { height: 50px; width: 50px; }
+    .about_minimotion_wrapper .center_section .social li + li { margin-left: 50px; }
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
@@ -387,6 +451,36 @@
     .gallery_sec .gallery_grp .gallery_head h2 {font-size: 54px;}
     .gallery_sec .gallery_grp .gallery_head {padding-bottom: 50px;}
     /* ====product==== */
+
+
+    .who_wrapper .left_part { padding: 45% 0 0 0; max-width: 506px; }
+    .who_wrapper .right_part { max-width: 700px; }
+    .who_wrapper .right_part h2 { font-size: 52px; }
+    .who_wrapper .right_part p { font-size: 20px; margin-top: 26px; }
+
+
+    .ourvision_section { padding: 80px 0; }
+    .vision_wrapper .section_title .image_box .img { width: 80px; height: 80px; }
+    .vision_wrapper .section_title p { font-size: 20px; margin-top: 26px; }
+
+
+    .commitment_section { padding: 80px 0; }
+    .commitment_wrapper .left_part { max-width: 700px; }
+    .commitment_wrapper .left_part h2 { font-size: 52px; }
+    .commitment_wrapper .left_part p { font-size: 20px; margin-top: 26px; }
+    .commitment_wrapper .right_part { padding: 38.3% 0 0 0; max-width: 500px; }
+
+
+    .about_minimotion { padding: 64px 0 80px 0; }
+    .about_minimotion_wrapper .left_section .first_image { transform: rotate(-6deg); right: auto; }
+    .about_minimotion_wrapper .left_section .second_image { transform: rotate(8deg); max-width: 390px; }
+    .about_minimotion_wrapper .right_section .first_image { max-width: 360px; }
+    .about_minimotion_wrapper .right_section .second_image { transform: rotate(-8deg); max-width: 370px; }
+    .about_minimotion_wrapper .center_section .logo_block { max-width: 300px; }
+    .about_minimotion_wrapper .center_section .follow { font-size: 52px; margin-top: 50px; }
+    .about_minimotion_wrapper .center_section .btnlink a { height: 80px; padding: 0 60px 8px 60px; font-size: 50px; }
+    .about_minimotion_wrapper .center_section .social li a { height: 50px; width: 50px; }
+    .about_minimotion_wrapper .center_section .social li + li { margin-left: 50px; }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -543,6 +637,38 @@
     .gallery_sec .gallery_grp .gallery_head h2 {font-size: 54px;}
     .gallery_sec .gallery_grp .gallery_head {padding-bottom: 50px;}
     /* ====product==== */
+
+
+    .who_wrapper { align-items: flex-start; }
+    .who_wrapper .left_part { padding: 49.8% 0 0 0; max-width: 450px; }
+    .who_wrapper .right_part { max-width: 520px; padding-top: 30px; }
+    .who_wrapper .right_part h2 { font-size: 48px; }
+    .who_wrapper .right_part p { font-size: 20px; margin-top: 24px; }
+
+
+    .ourvision_section { padding: 70px 0; }
+    .vision_wrapper .section_title .image_box .img { width: 80px; height: 80px; }
+    .vision_wrapper .section_title p { font-size: 20px; margin-top: 24px; }
+
+
+    .commitment_section { padding: 70px 0; }
+    .commitment_wrapper .left_part { max-width: 550px; }
+    .commitment_wrapper .left_part h2 { font-size: 48px; }
+    .commitment_wrapper .left_part p { font-size: 20px; margin-top: 24px; }
+    .commitment_wrapper .right_part { padding: 40.2% 0 0 0; max-width: 422px; }
+
+
+    .about_minimotion { padding: 0 0 70px 0; }
+    .about_minimotion_wrapper .left_section .first_image { transform: rotate(0deg); right: auto; }
+    .about_minimotion_wrapper .left_section .second_image { transform: rotate(0deg); }
+    .about_minimotion_wrapper .right_section .first_image { transform: rotate(0deg); }
+    .about_minimotion_wrapper .right_section .second_image { transform: rotate(0deg); }
+    .about_minimotion_wrapper .center_section .logo_block { max-width: 260px; }
+    .about_minimotion_wrapper .center_section .follow { font-size: 48px; margin-top: 40px; }
+    .about_minimotion_wrapper .center_section .btnlink a { height: 70px; padding: 0 50px 8px 50px; font-size: 40px; }
+    .about_minimotion_wrapper .center_section .social { margin-top: 40px; }
+    .about_minimotion_wrapper .center_section .social li a { height: 50px; width: 50px; }
+    .about_minimotion_wrapper .center_section .social li + li { margin-left: 40px; }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -720,7 +846,42 @@
     .gallery_sec .gallery_grp .gallery_head {padding-bottom: 40px;}
     /* ====product==== */
 
-    
+    .who_wrapper { flex-direction: column; }
+    .who_wrapper .left_part { padding: 67% 0 0 0; max-width: 450px; }
+    .who_wrapper .right_part { margin-top: 30px; }
+    .who_wrapper .right_part h2 { font-size: 48px; }
+    .who_wrapper .right_part p { font-size: 20px; margin-top: 24px; }
+
+
+    .ourvision_section { padding: 60px 0; }
+    .vision_wrapper .section_title .image_box .img { width: 70px; height: 70px; }
+    .vision_wrapper .section_title p { font-size: 20px; margin-top: 24px; }
+
+
+    .commitment_section { padding: 60px 0; }
+    .commitment_wrapper { flex-direction: column-reverse; }
+    .commitment_wrapper .left_part { margin-top: 30px; }
+    .commitment_wrapper .left_part h2 { font-size: 48px; }
+    .commitment_wrapper .left_part p { font-size: 20px; margin-top: 24px; }
+    .commitment_wrapper .right_part { padding: 54.2% 0 0 0; max-width: 422px; }
+
+
+    .about_minimotion { padding: 60px 0; }
+    .about_minimotion_wrapper { flex-direction: column; gap: 50px; }
+    .about_minimotion_wrapper .left_section { display: flex; }
+    .about_minimotion_wrapper .left_section .first_image { transform: rotate(0deg); right: auto; width: 50%; }
+    .about_minimotion_wrapper .left_section .second_image { transform: rotate(0deg); width: 50%; margin: 0 0 0 20px; }
+    .about_minimotion_wrapper .left_section .second_image .image { padding: 71.6% 0 0 0; }
+    .about_minimotion_wrapper .right_section { display: flex; }
+    .about_minimotion_wrapper .right_section .first_image { transform: rotate(0deg); width: 50%; }
+    .about_minimotion_wrapper .right_section .second_image { transform: rotate(0deg); width: 50%; margin: 0 0 0 20px; }
+    .about_minimotion_wrapper .right_section .second_image .image { padding: 80% 0 0 0; }
+    .about_minimotion_wrapper .center_section .logo_block { max-width: 300px; }
+    .about_minimotion_wrapper .center_section .follow { font-size: 48px; margin-top: 40px; }
+    .about_minimotion_wrapper .center_section .btnlink a { height: 70px; padding: 0 60px 8px 60px; font-size: 40px; }
+    .about_minimotion_wrapper .center_section .social { margin-top: 40px; }
+    .about_minimotion_wrapper .center_section .social li a { height: 50px; width: 50px; }
+    .about_minimotion_wrapper .center_section .social li + li { margin-left: 40px; }
 }
 
 @media (max-width: 991px) {}

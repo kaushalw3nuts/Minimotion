@@ -493,7 +493,6 @@ p {
 .bestseller_section.productpage .product_list .filter_wrap .filterbox .nice-select {font-size: 18px; height: 60px; display: flex; justify-content: flex-start; align-items: center; min-width: 200px;}
 .bestseller_section.productpage .product_list .filter_wrap .filterbox .nice-select .list .option {min-width: 200px;}
 .bestseller_section.productpage .listing_wrapper .item_box {background: rgba(249, 249, 249, 1);}
-.bestseller_section.productpage .listing_wrapper .item_box:hover {}
 .pagination_wrap {margin-top: 64px;}
 .pagination_wrap .pri_next {display: flex; justify-content: center; align-items: center;}
 .pagination_wrap .pri_next .btnb { display: flex;}
@@ -564,7 +563,6 @@ gap: 18px;}
 .product_purchase .product_head {padding-bottom: 58px;}
 .product_purchase .product_head h3 {font-size: 44px; color: var(--light-bg-black); line-height: 60px; font-family: 'Manrope'; font-weight: 700;}
 .product_purchase .rating_star {display: flex; align-items: center;}
-.product_purchase .rating_star .star_grp {}
 .product_purchase .rating_star .star_grp ul {display: flex;}
 .product_purchase .rating_star .star_grp ul li {display: block;}
 .product_purchase .rating_star .star_grp ul li:not(:last-child){margin-right: 28px;}
@@ -638,7 +636,6 @@ background-color: #000000; border: 1px solid var(--light-border-color); border-r
 .order_sec .order_dtl ul li {display: flex; align-items: center;}
 .order_sec .order_dtl ul li i {display: inline-flex;}
 .order_sec .order_dtl ul li span {font-size: 24px; color: var(--light-bg-black); font-weight: 500; font-family: 'Manrope'; margin-left: 16px; display: block;}
-.order_sec .btnbox {}
 .order_sec .btnbox .primary_btn {display: flex; justify-content: center; align-items: center; padding: 0 10px; height: 58px; border: 2px solid var(--light-orange-btn-border-color); font-family: 'Manrope'; font-weight: 700; font-size: 24px; line-height: 1.58; color: var(--primary-white); transition: all 0.4s ease-in-out; margin-top: auto; background-color: var(--light-orange-background);}
 .order_sec .btnbox .primary_btn:hover {background-color: var(--primary-white); color: var(--light-bg-black);}
 

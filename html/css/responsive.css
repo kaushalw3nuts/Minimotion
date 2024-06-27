@@ -49,6 +49,20 @@
 
     .get_section { padding: 80px 0 100px 0; }
     .get_wrapper .section_title p { font-size: 22px; }
+    .form_section .left_block .contact_detail .top_box .title { font-size: 46px; }
+    .form_section .left_block .contact_detail .top_box ul li { font-size: 22px; }
+    .form_section .left_block .contact_detail .center_box li .link { font-size: 22px; }
+    .form_section .left_block .contact_detail .center_box li .link i { height: 32px; width: 32px; margin-right: 12px; }
+    .form_section .left_block .contact_detail .center_box li .location_text i { min-width: 32px; }
+    .form_section .left_block .contact_detail .bottom_box .text a { font-size: 22px; }
+    .form_section .right_block { padding: 64px 54px; }
+    .form-label { font-size: 18px; margin-bottom: 20px; }
+    .form-control { font-size: 20px; padding-bottom: 12px; height: 46px; }
+    .input-row .nice-select { height: 46px; }
+    .input-row .nice-select .current { font-size: 20px; padding-bottom: 12px; }
+    .input-row .nice-select::after { margin-top: -3px; }
+    .form_block + .form_block { margin-top: 34px; }
+    .form_section .right_block .btnlink { margin-top: 48px; }
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
@@ -159,6 +173,21 @@
 
     .get_section { padding: 80px 0 90px 0; }
     .get_wrapper .section_title p { font-size: 22px; }
+    .form_section .left_block .contact_detail .top_box .title { font-size: 46px; }
+    .form_section .left_block .contact_detail .top_box ul li { font-size: 22px; }
+    .form_section .left_block .contact_detail .center_box li .link { font-size: 22px; }
+    .form_section .left_block .contact_detail .center_box li .link i { height: 32px; width: 32px; margin-right: 12px; }
+    .form_section .left_block .contact_detail .center_box li .location_text i { min-width: 32px; }
+    .form_section .left_block .contact_detail .bottom_box .icon a { height: 34px; width: 34px; }
+    .form_section .left_block .contact_detail .bottom_box .text a { font-size: 22px; }
+    .form_section .right_block { padding: 64px 54px; }
+    .form-label { font-size: 18px; margin-bottom: 20px; }
+    .form-control { font-size: 20px; padding-bottom: 12px; height: 46px; }
+    .input-row .nice-select { height: 46px; }
+    .input-row .nice-select .current { font-size: 20px; padding-bottom: 12px; }
+    .input-row .nice-select::after { margin-top: -3px; }
+    .form_block + .form_block { margin-top: 34px; }
+    .form_section .right_block .btnlink { margin-top: 48px; }
 }
 
 @media (min-width: 1301px) and (max-width: 1399px) {
@@ -323,6 +352,25 @@
     .get_section { padding: 80px 0; }
     .get_wrapper .section_title { margin: 0 auto 80px auto; }
     .get_wrapper .section_title p { font-size: 20px; margin-top: 26px; }
+    .form_section .left_block { width: 50%; }
+    .form_section .left_block .contact_detail .top_box .title { font-size: 46px; }
+    .form_section .left_block .contact_detail .top_box ul li { font-size: 22px; }
+    .form_section .left_block .contact_detail .center_box li .link { font-size: 22px; }
+    .form_section .left_block .contact_detail .center_box li .link i { height: 32px; width: 32px; margin-right: 12px; }
+    .form_section .left_block .contact_detail .center_box li .location_text i { min-width: 32px; }
+    .form_section .left_block .contact_detail .bottom_box .icon a { height: 34px; width: 34px; }
+    .form_section .left_block .contact_detail .bottom_box .text a { font-size: 22px; }
+    .form_section .right_block { width: 50%; padding: 64px 54px; }
+    .form-label { font-size: 18px; margin-bottom: 20px; }
+    .form-control { font-size: 20px; padding-bottom: 12px; height: 46px; }
+    .input-row .nice-select { height: 46px; }
+    .input-row .nice-select .current { font-size: 20px; padding-bottom: 12px; }
+    .input-row .nice-select::after { margin-top: -3px; }
+    .form_block + .form_block { margin-top: 34px; }
+    .form-group label { font-size: 18px; }
+    .form-group label::before { height: 22px; width: 22px; }
+    .form-group input:checked + label::after { height: 14px; width: 14px; }
+    .form_section .right_block .btnlink { margin-top: 46px; }
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
@@ -499,6 +547,26 @@
     .get_section { padding: 80px 0; }
     .get_wrapper .section_title { margin: 0 auto 80px auto; }
     .get_wrapper .section_title p { font-size: 20px; margin-top: 26px; }
+    .form_section .left_block { width: 50%; }
+    .form_section .left_block .contact_detail .top_box .title { font-size: 40px; }
+    .form_section .left_block .contact_detail .top_box ul li { font-size: 22px; }
+    .form_section .left_block .contact_detail .center_box li .link { font-size: 22px; }
+    .form_section .left_block .contact_detail .center_box li .link i { height: 32px; width: 32px; margin-right: 12px; }
+    .form_section .left_block .contact_detail .center_box li .location_text i { min-width: 32px; }
+    .form_section .left_block .contact_detail .bottom_box .icon a { height: 32px; width: 32px; }
+    .form_section .left_block .contact_detail .bottom_box .text a { font-size: 22px; }
+    .form_section .right_block { width: 50%; padding: 64px 44px; }
+    .form-label { font-size: 18px; margin-bottom: 20px; }
+    .form-control { font-size: 20px; padding-bottom: 12px; height: 46px; }
+    .input-row .nice-select { height: 46px; }
+    .input-row .nice-select .current { font-size: 20px; padding-bottom: 12px; }
+    .input-row .nice-select::after { margin-top: -3px; }
+    .form_block + .form_block { margin-top: 34px; }
+    .form-group label { font-size: 18px; }
+    .form-group label::before { height: 22px; width: 22px; }
+    .form-group input:checked + label::after { height: 14px; width: 14px; }
+    .form_section .right_block .btnlink { margin-top: 46px; }
+    .form_section .right_block .btnlink .btn_wrapper { padding: 16px 20px; }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -692,6 +760,32 @@
     .get_section { padding: 70px 0; }
     .get_wrapper .section_title { margin: 0 auto 70px auto; }
     .get_wrapper .section_title p { font-size: 20px; margin-top: 24px; }
+    .form_section { flex-direction: column; }
+    .form_section .left_block { width: 100%; padding: 50px 40px; }
+    .form_section .left_block .image { width: 100%; }
+    .form_section .left_block .contact_detail .top_box .title { font-size: 40px; }
+    .form_section .left_block .contact_detail .top_box ul { margin-top: 22px; }
+    .form_section .left_block .contact_detail .top_box ul li { font-size: 20px; }
+    .form_section .left_block .contact_detail .center_box { max-width: 100%; }
+    .form_section .left_block .contact_detail .center_box li .link { font-size: 20px; }
+    .form_section .left_block .contact_detail .center_box li .link i { height: 30px; width: 30px; margin-right: 12px; margin-top: 4px; }
+    .form_section .left_block .contact_detail .center_box li .location_text i { min-width: 30px; }
+    .form_section .left_block .contact_detail .center_box li + li { margin-top: 30px; }
+    .form_section .left_block .contact_detail .bottom_box .icon a { height: 32px; width: 32px; }
+    .form_section .left_block .contact_detail .bottom_box .text a { font-size: 20px; }
+    .form_section .right_block { width: 100%; padding: 50px 40px; }
+    .form_block .input-row + .input-row { margin-left: 36px; }
+    .form-label { font-size: 18px; margin-bottom: 18px; }
+    .form-control { font-size: 20px; padding-bottom: 10px; height: 40px; }
+    .input-row .nice-select { height: 40px; padding-bottom: 10px; }
+    .input-row .nice-select .current { font-size: 20px; }
+    .input-row .nice-select::after { margin: -2px; }
+    .form_block + .form_block { margin-top: 34px; }
+    .form-group label { font-size: 18px; padding-left: 36px; }
+    .form-group label::before { height: 22px; width: 22px; }
+    .form-group input:checked + label::after { height: 14px; width: 14px; }
+    .form_section .right_block .btnlink { margin-top: 42px; }
+    .form_section .right_block .btnlink .btn_wrapper { padding: 16px 20px; }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -910,6 +1004,33 @@
     .get_section { padding: 60px 0; }
     .get_wrapper .section_title { margin: 0 auto 60px auto; }
     .get_wrapper .section_title p { font-size: 20px; margin-top: 24px; }
+    .form_section { flex-direction: column; }
+    .form_section .left_block { width: 100%; padding: 40px 30px; }
+    .form_section .left_block .image { width: 100%; }
+    .form_section .left_block .contact_detail .top_box .title { font-size: 36px; }
+    .form_section .left_block .contact_detail .top_box ul { margin-top: 18px; }
+    .form_section .left_block .contact_detail .top_box ul li { font-size: 20px; }
+    .form_section .left_block .contact_detail .center_box { max-width: 100%; }
+    .form_section .left_block .contact_detail .center_box li .link { font-size: 20px; }
+    .form_section .left_block .contact_detail .center_box li .link i { height: 28px; width: 28px; margin-right: 12px; margin-top: 4px; }
+    .form_section .left_block .contact_detail .center_box li .location_text i { min-width: 28px; }
+    .form_section .left_block .contact_detail .center_box li + li { margin-top: 30px; }
+    .form_section .left_block .contact_detail .bottom_box .icon a { height: 32px; width: 32px; }
+    .form_section .left_block .contact_detail .bottom_box .text a { font-size: 20px; }
+    .form_section .right_block { width: 100%; padding: 40px 30px; }
+    .form_block .input-row + .input-row { margin-left: 30px; }
+    .form-label { font-size: 18px; margin-bottom: 16px; }
+    .form-control { font-size: 20px; padding-bottom: 10px; height: 38px; }
+    .input-row .nice-select { height: 38px; padding-bottom: 10px; }
+    .input-row .nice-select .current { font-size: 20px; }
+    .input-row .nice-select::after { margin: 0; }
+    .form_block + .form_block { margin-top: 30px; }
+    .form-group label { font-size: 18px; padding-left: 36px; }
+    .form-group label::before { height: 22px; width: 22px; }
+    .form-group input:checked + label::after { height: 14px; width: 14px; }
+    .form_section .right_block .btnlink { margin-top: 40px; }
+    .form_section .right_block .btnlink .btn_wrapper { padding: 16px 20px; }
+    .form_section .right_block .btnlink .btn_wrapper i { height: 22px; width: 22px; }
 }
 
 @media (max-width: 991px) {}
@@ -1135,6 +1256,34 @@
     .get_section { padding: 50px 0; }
     .get_wrapper .section_title { margin: 0 auto 50px auto; }
     .get_wrapper .section_title p { font-size: 18px; margin-top: 24px; }
+    .form_section { flex-direction: column; }
+    .form_section .left_block { width: 100%; padding: 30px 20px; }
+    .form_section .left_block .contact_detail .top_box .title { font-size: 30px; }
+    .form_section .left_block .contact_detail .top_box ul { margin-top: 20px; }
+    .form_section .left_block .contact_detail .top_box ul li { font-size: 18px; }
+    .form_section .left_block .contact_detail .center_box { max-width: 100%; }
+    .form_section .left_block .contact_detail .center_box li .link { font-size: 18px; }
+    .form_section .left_block .contact_detail .center_box li .link i { height: 26px; width: 26px; margin-right: 10px; margin-top: 4px; }
+    .form_section .left_block .contact_detail .center_box li .location_text i { min-width: 26px; }
+    .form_section .left_block .contact_detail .center_box li + li { margin-top: 26px; }
+    .form_section .left_block .contact_detail .bottom_box .icon a { height: 30px; width: 30px; }
+    .form_section .left_block .contact_detail .bottom_box .text a { font-size: 18px; }
+    .form_section .right_block { width: 100%; padding: 30px 20px; }
+    .form_block { flex-direction: column; }
+    .form_block .input-row { width: 100%; }
+    .form_block .input-row + .input-row { margin: 20px 0 0 0; }
+    .form-label { font-size: 16px; margin-bottom: 12px; }
+    .form-control { font-size: 18px; padding-bottom: 10px; height: 34px; }
+    .input-row .nice-select { height: 34px; padding-bottom: 10px; }
+    .input-row .nice-select .current { font-size: 18px; }
+    .input-row .nice-select::after { margin: 0; }
+    .form_block + .form_block { margin-top: 20px; }
+    .form-group label { font-size: 16px; padding-left: 30px; }
+    .form-group label::before { height: 20px; width: 20px; }
+    .form-group input:checked + label::after { height: 12px; width: 12px; }
+    .form_section .right_block .btnlink { margin-top: 32px; }
+    .form_section .right_block .btnlink .btn_wrapper { font-size: 18px; padding: 16px 20px; }
+    .form_section .right_block .btnlink .btn_wrapper i { height: 20px; width: 20px; }
 
 
     .map_section { padding: 0 0 0 0; height: 100%; }

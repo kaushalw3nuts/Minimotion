@@ -730,8 +730,8 @@ left: 0; top: 0;}
 .get_wrapper .section_title { max-width: 954px; margin: 0 auto 96px auto; text-align: center; }
 .get_wrapper .section_title h2 { color: var(--heading-text-color); }
 .get_wrapper .section_title p { font-family: 'Manrope'; font-weight: 500; font-size: 24px; line-height: 1.75; color: var(--text-gray); margin-top: 32px; }
-.form_section { background-color: var(--primary-white); border-radius: 30px; display: flex; align-items: flex-start; justify-content: space-between; width: 100%; }
-.form_section .left_block { background-color: var(--contact-info-bg); border-radius: 30px 20px 20px 30px; padding: 64px 44px; position: relative; width: 40%; }
+.form_section { background-color: var(--primary-white); border-radius: 30px; display: flex; justify-content: space-between; width: 100%; }
+.form_section .left_block { background-color: var(--contact-info-bg); border-radius: 30px 20px 20px 30px; padding: 64px 44px; position: relative; width: 40%; display: flex; }
 .form_section .left_block .image { display: flex; max-width: 100%; position: absolute; left: 0; top: 16px; }
 .form_section .left_block .image img { width: 100%; height: auto; }
 .form_section .left_block .contact_detail { display: flex; flex-direction: column; justify-content: space-between; z-index: 1; position: relative; gap: 20px; }

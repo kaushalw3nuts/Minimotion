@@ -198,6 +198,12 @@
     .four_zero_page { min-height: calc(100vh - 120px - 203px); padding: 133px 0 80px 0; }
     .four_zero_page .big_title h1 { font-size: 45px; }
     .four_zero_page .big_title span { font-size: 150px; bottom: 5px; }
+
+
+    .default_content h1 { font-size: 70px; }
+    .default_content h2 { font-size: 50px; margin-bottom: 24px; }
+    .default_content p { margin: 0 0 20px 0; }
+    .default_content h3 { font-size: 38px; }
 }
 
 @media (min-width: 1301px) and (max-width: 1399px) {
@@ -386,6 +392,12 @@
     .four_zero_page { min-height: calc(100vh - 120px - 203px); padding: 133px 0 80px 0; }
     .four_zero_page .big_title h1 { font-size: 45px; }
     .four_zero_page .big_title span { font-size: 150px; bottom: 5px; }
+
+
+    .default_content h1 { font-size: 70px; }
+    .default_content h2 { font-size: 50px; margin-bottom: 24px; }
+    .default_content p { margin: 0 0 20px 0; }
+    .default_content h3 { font-size: 38px; }
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
@@ -587,6 +599,13 @@
     .four_zero_page { min-height: calc(100vh - 120px - 203px); padding: 133px 0 80px 0; }
     .four_zero_page .big_title h1 { font-size: 45px; }
     .four_zero_page .big_title span { font-size: 150px; bottom: 5px; }
+
+
+    .default_content h1 { font-size: 60px; }
+    .default_content h2 { font-size: 50px; margin-bottom: 20px; }
+    .default_content p { margin: 0 0 18px 0; }
+    .default_content h3 { font-size: 34px; }
+    .default_content h4 { font-size: 30px; }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -811,6 +830,18 @@
     .four_zero_page { min-height: calc(100vh - 120px - 203px); padding: 133px 0 80px 0; }
     .four_zero_page .big_title h1 { font-size: 45px; }
     .four_zero_page .big_title span { font-size: 150px; bottom: 5px; }
+
+
+    .default_content h1 { font-size: 60px; }
+    .default_content h2 { font-size: 50px; margin-bottom: 20px; }
+    .default_content p { font-size: 16px; margin: 0 0 18px 0; }
+    .default_content h3 { font-size: 34px; }
+    .default_content h4 { font-size: 30px; }
+    .default_content ul li { font-size: 16px; }
+    .default_content ul li::before { top: 9px; }
+    .default_content ol li { font-size: 16px; }
+    .default_content blockquote { font-size: 16px; }
+    .default_content blockquote p { font-size: 16px; }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1061,6 +1092,19 @@
     .four_zero_page { min-height: calc(100vh - 120px - 203px); padding: 133px 0 80px 0; }
     .four_zero_page .big_title h1 { font-size: 45px; }
     .four_zero_page .big_title span { font-size: 120px; bottom: 14px; }
+
+
+    .default_content h1 { font-size: 50px; }
+    .default_content h2 { font-size: 40px; margin-bottom: 20px; }
+    .default_content p { font-size: 16px; margin: 0 0 18px 0; }
+    .default_content h3 { font-size: 32px; }
+    .default_content h4 { font-size: 28px; }
+    .default_content ul li { font-size: 16px; }
+    .default_content ul li::before { top: 9px; }
+    .default_content h5 { font-size: 24px; }
+    .default_content ol li { font-size: 16px; }
+    .default_content blockquote { font-size: 16px; }
+    .default_content blockquote p { font-size: 16px; }
 }
 
 @media (max-width: 991px) {}
@@ -1325,4 +1369,17 @@
     .four_zero_page .big_title span { font-size: 100px; bottom: 22px; }
     .four_zero_page .fore_text { font-size: 20px; }
     .four_zero_page .read_more a { padding: 0 23px; height: 46px; font-size: 18px; }
+
+
+    .default_content h1 { font-size: 40px; }
+    .default_content h2 { font-size: 30px; margin-bottom: 20px; }
+    .default_content p { font-size: 16px; margin: 0 0 16px 0; }
+    .default_content h3 { font-size: 26px; }
+    .default_content h4 { font-size: 24px; }
+    .default_content ul li { font-size: 16px; }
+    .default_content ul li::before { top: 9px; }
+    .default_content h5 { font-size: 22px; }
+    .default_content ol li { font-size: 16px; }
+    .default_content blockquote { font-size: 16px; }
+    .default_content blockquote p { font-size: 16px; }
 }

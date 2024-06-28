@@ -816,6 +816,7 @@ body.error404 .site-main { padding: 0 !important; }
 .default_content ol li { position: relative; list-style: decimal; display: list-item; font-family: 'Manrope'; font-size: 18px; color: var(--text-gray); font-weight: 400; line-height: normal; margin: 0 0 5px 0; padding: 0; }
 .default_content blockquote { display: block; font-family: 'Manrope'; font-size: 18px; color: var(--primary-white); font-weight: 400; line-height: normal; background: var(--heading-text-color); border-left: 6px solid var(--light-orange-background); margin: 0 0 20px 0; padding: 18px 20px; }
 .default_content blockquote p {	font-family: 'Manrope'; font-size: 18px; color: var(--primary-white); font-weight: 500; line-height: normal; margin: 0; }
+.default_content blockquote p + p { margin-top: 15px; }
 .default_content blockquote * { color: var(--primary-white) !important; }
 .default_content { overflow-x: hidden !important; }
 .default_content a { font-family: 'Manrope'; font-size: 18px; color: var(--heading-text-color); text-decoration: underline; }

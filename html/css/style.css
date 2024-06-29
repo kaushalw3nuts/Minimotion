@@ -283,8 +283,9 @@ p {
 .banner { position: relative; display: block; }
 .home_banner_img { position: relative; background-size: cover; background-repeat: no-repeat; background-position: center center; width: 100%; display: flex; padding: 43.09% 0 0 0; }
 .home_banner_img img { width: 100%; height: 100%; object-fit: cover; position: absolute; left: 0; top: 0; display: none; }
-
-
+.home_banner_img .btnbox {position: absolute; bottom: 10%;  display: flex; justify-content: center; align-items: center; left: 50%; transform: translate(-50%, 0);}
+.home_banner_img .btnbox a {font-family: 'Milky Honey'; font-size: 24px; font-weight: 400; height: 60px; display: flex; justify-content: center; align-items: center; background-color: var(--light-orange-background); color: var(--primary-white); border: 1px solid var(--light-orange-btn-border-color); border-radius: 50px; transition: all ease-in-out 0.3s; padding: 0 30px;}
+.home_banner_img .btnbox a:hover{background-color: var(--primary-white); color: var(--light-orange-text);}
 .bestseller_section { display: block; position: relative; padding: 96px 0; background-color: var(--light-white-background); }
 .section_title { margin-bottom: 64px; display: block; text-align: center; }
 .section_title h2 { font-family: 'Milky Honey'; font-weight: 400; font-size: 64px; line-height: 1.10; color: var(--text-black); }
